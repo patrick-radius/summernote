@@ -6,7 +6,7 @@
  * Copyright 2013 Alan Hong. and outher contributors
  * summernote may be freely distributed under the MIT license./
  *
- * Date: 2014-07-27T05:15Z
+ * Date: 2014-08-07T18:14Z
  */
 (function (factory) {
   /* global define */
@@ -3290,6 +3290,7 @@
     };
 
     this.dettach = function (oLayoutInfo, options) {
+      options = options || {};
       oLayoutInfo.editable.off();
 
       oLayoutInfo.popover.off();
