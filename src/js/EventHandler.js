@@ -661,6 +661,7 @@ define([
     };
 
     this.dettach = function (oLayoutInfo, options) {
+      options = options || {};
       oLayoutInfo.editable.off();
 
       oLayoutInfo.popover.off();
