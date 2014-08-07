@@ -6,7 +6,7 @@
  * Copyright 2013 Alan Hong. and outher contributors
  * summernote may be freely distributed under the MIT license./
  *
- * Date: 2014-08-07T18:14Z
+ * Date: 2014-08-07T19:23Z
  */
 (function (factory) {
   /* global define */
@@ -83,7 +83,7 @@
     isFF: navigator.userAgent.indexOf('Firefox') > -1,
     jqueryVersion: parseFloat($.fn.jquery),
     isSupportAmd: isSupportAmd,
-    hasCodeMirror: isSupportAmd ? require.specified('CodeMirror') : !!window.CodeMirror,
+    hasCodeMirror: true,
     isFontInstalled: isFontInstalled
   };
 

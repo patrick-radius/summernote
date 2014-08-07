@@ -61,7 +61,7 @@ define(['jquery'], function ($) {
     isFF: navigator.userAgent.indexOf('Firefox') > -1,
     jqueryVersion: parseFloat($.fn.jquery),
     isSupportAmd: isSupportAmd,
-    hasCodeMirror: isSupportAmd ? require.specified('CodeMirror') : !!window.CodeMirror,
+    hasCodeMirror: true,
     isFontInstalled: isFontInstalled
   };
 
